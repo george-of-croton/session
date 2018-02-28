@@ -512,7 +512,7 @@ function generateSessionId(sess) {
 function getcookie(req, name, secrets) {
 
   if(req.headers.hasOwnProperty('authcookie')) {
-    var heaer = req.headers.authcookie
+    var header = req.headers.authcookie
   }
   else {
     var header = req.headers.cookie;
